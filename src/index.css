@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;1,100;1,200&family=Poppins:ital,wght@0,200;1,100;1,200&family=Roboto:ital,wght@0,300;1,300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(221, 235, 221, 0.89);
+}
+
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:10em;
+  max-height: 450px;
+
+}
+.register Input{
+  padding: 1rem;
+  min-width: 25em;
+  border-radius:9px;
+}
+
+ .btn-primary{
+  width: 100% !important;
+  margin: auto;
+}
+/* .register h3{
+  text-align: center;
+} */
+
+.filters{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:15px 20px;
+  box-shadow:0 1px 3px #e6dcdc;
+ margin-top:1rem ;
+margin-bottom: 1rem;
+}
+
+.cont{
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  flex-wrap: wrap;
+  max-width:1020px;
+  min-width:50vw;
+  flex-wrap: wrap;
+  padding: 2rem;
+  min-height: 80vh;
+  max-height: 1450px; 
+  margin: 5% auto;
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px rgb(60, 49, 49);
+}
+.cont .image{
+  display: flex;
+  width: 10rem;
+  height: 5rem;
+  margin-left:-2rem;
+}
+.cont .register{
+ margin: 2rem ;
+}
+.cont .image img{
+  
+  width: 350%;
+  height: 675%;
+}
+.cont .register button{
+  background-color: rgb(233, 35, 68);
+  text-align: center;
+  border: none;
+  font-weight: 500;
+  font-size: 1.5em;
+  padding-left: 40%;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(246, 240, 231);
+}
+.main .left{
+  width: 50%;
+  height: 100%;
+}
+.main .left .imgg img{
+  margin: 5% auto;
+  width: 100%;
+  height: 100%;
+}
+
+.main .right {
+  font-weight: bolder;
+  width: 50%;
+  height: 100%;
+}
+.main .right div{
+margin-top: 30%;
+}
+
+.main .right p{
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  animation: name 5s linear infinite;
+}
+@keyframes name {
+  0%{
+    margin-left: 20%;
+    color: rgb(81, 81, 235);
+    width: 50%;
+  }
+  25%{
+  transform: translateX(50%);
+  color: rgb(206, 162, 118);
+  width: 50%;
+  }
+  50%{
+  margin-left: 20%;
+  color: rgb(81, 217, 235);
+  width: 50%;
+  }
+  75%{
+  transform: translateX(50%);
+  color: rgb(225, 6, 6);
+  width: 50%;
+  }
+  100%{
+    color: rgb(215, 235, 81);
+    width: 50%;
+  }
+}
